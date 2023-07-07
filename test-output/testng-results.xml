@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T01:11:05 IST" name="Default suite" finished-at="2023-07-08T01:11:16 IST" duration-ms="10446">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T01:11:05 IST" name="Default test" finished-at="2023-07-08T01:11:16 IST" duration-ms="10446">
+      <class name="com.testautomation.apitesting.tests.PostAPIRequestUsingPojos">
+        <test-method signature="PostRequestUsingPojo()[pri:0, instance:com.testautomation.apitesting.tests.PostAPIRequestUsingPojos@b40bb6e]" started-at="2023-07-08T01:11:06 IST" name="PostRequestUsingPojo" finished-at="2023-07-08T01:11:16 IST" duration-ms="10193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostRequestUsingPojo -->
+      </class> <!-- com.testautomation.apitesting.tests.PostAPIRequestUsingPojos -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
