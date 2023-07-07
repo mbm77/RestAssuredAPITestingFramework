@@ -63,7 +63,8 @@ public class E2EAPITesting extends BaseTest{
 			
 			int booking_id = JsonPath.read(response.getBody().asString(),"$.bookingid");
 			
-			//base64 encoding class-name parallel="tests" thread-count="4" dependesOnMethods 
+			//base64 encoding class-name parallel="tests" 
+			//thread-count="4" dependesOnMethods={} alwaysRun=true ignoreMissingDependencies=true 
 			//get api call
 			RestAssured
 				.given()
