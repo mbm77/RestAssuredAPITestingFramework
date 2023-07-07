@@ -63,7 +63,7 @@ public class E2EAPITesting extends BaseTest{
 			
 			int booking_id = JsonPath.read(response.getBody().asString(),"$.bookingid");
 			
-			//get request
+			//get api call
 			RestAssured
 				.given()
 					.baseUri("https://restful-booker.herokuapp.com")
